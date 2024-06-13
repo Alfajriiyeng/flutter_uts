@@ -30,14 +30,14 @@ class MyApp extends StatelessWidget {
                 children: List.generate(9, (index) {
                   return Container(
                     margin: EdgeInsets.all(8.0),
-                    color: Color.fromARGB(255, 231, 231, 16),
+                    color: Color.fromRGBO(202, 16, 231, 1),
                   );
                 }),
               ),
             ),
             ListTile(
               leading: CircleAvatar(
-                backgroundColor: Color.fromARGB(255, 16, 172, 16)RGB(255, 73, 2, 9),
+                backgroundColor: Color.fromRGBO(16, 68, 172, 1)RGB(255, 73, 2, 9),
               ),
               title: Text('Judul'),             
               subtitle: Text('asik'),                     
@@ -45,7 +45,7 @@ class MyApp extends StatelessWidget {
             ),
             ListTile(
               leading: CircleAvatar(
-                backgroundColor: Color.fromARGB(255, 230, 12, 106),
+                backgroundColor: Color.fromARGB(255, 11, 125, 254),
               ),
               title: Text('Judul'),
               subtitle: Text('asik'),
